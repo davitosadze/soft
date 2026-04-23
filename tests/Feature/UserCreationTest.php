@@ -11,7 +11,7 @@ class UserCreationTest extends TestCase
     use RefreshDatabase;
 
     /** @test */
-    public function a_user_can_be_created_via_the_api(): void
+    public function test_a_user_can_be_created(): void
     {
         // 1. Prepare the data
         $userData = [
